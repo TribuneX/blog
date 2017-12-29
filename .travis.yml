@@ -1,0 +1,26 @@
+language: go
+
+go:
+  - master
+
+install:
+  - go get github.com/spf13/hugo 
+
+env:
+  global:
+    - SOURCE_DIR="public"
+    - BUILD_BRANCH="code"
+    - DEPLOY_BRANCH="master"
+
+install:
+  - go get -u -v github.com/spf13/hugo
+
+script:
+  - hugo
+
+deploy:
+  - provider: script
+    script: chmod +x ./scripts/deploy.sh && ./scripts/deploy.sh
+    skip_cleanup: true
+    on:
+      branch: master
