@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sascha Bleidner</title>
+    <link>https://blog.farb-foto.de/</link>
+    <description>Recent content on Sascha Bleidner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Fri, 29 Dec 2017 15:05:02 +0100</lastBuildDate>
+    
+	<atom:link href="https://blog.farb-foto.de/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Home Automation History</title>
+      <link>https://blog.farb-foto.de/blog/home-automation-history/</link>
+      <pubDate>Fri, 29 Dec 2017 15:05:02 +0100</pubDate>
+      
+      <guid>https://blog.farb-foto.de/blog/home-automation-history/</guid>
+      <description>Wie alles began Die ersten Gehversuche mit Home Automation habe ich mit einem Connair 433Mhz Gateway und einem Raspberry Pi 1 gemacht. Mittels einer kleinen Web-App lies sich das Gateway bequem per iPhone ansteuern. Timer waren damals das höchste der Gefühle. Der Rest musste manuell gesteuert werden. Es funktionierte aber hinreichend gut und ersetzte schnell die weißen Fernsteuerungen. Größter Vorteil des 433Mhz Systems ist der unschlagbar günstige Preis. Drei Steckdosen gab es bereits ab 15€ im Baummarkt um die Ecke.</description>
+    </item>
+    
+    <item>
+      <title>Starting a blog</title>
+      <link>https://blog.farb-foto.de/blog/starting-a-blog/</link>
+      <pubDate>Fri, 29 Dec 2017 10:26:09 +0100</pubDate>
+      
+      <guid>https://blog.farb-foto.de/blog/starting-a-blog/</guid>
+      <description>Ein eigener Blog Wer kennt sie nicht, die guten Vorsätze für das neue Jahr. Für 2018 habe ich mir als Ziel gesetzt einen eigenen Blog zu starten. Getreu dem Motto &amp;ldquo;Besser zu früh als zu spät&amp;rdquo;, geht der Blog schon heute online.
+Warum eigentlich ein Blog? In den letzten Monaten habe ich mich intensiv mit dem Thema Home Automation beschäftigt. Die unzuähligen Bastelstunden führen zwar überraschenderweise häufig zu einem funktionierenden Ergebnis, nach ein paar Wochen sind die Command Line Befehle und andere Tricks aber schnell vergessen.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://blog.farb-foto.de/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.farb-foto.de/about/</guid>
+      <description>Author: Sascha Bleidner</description>
+    </item>
+    
+  </channel>
+</rss>

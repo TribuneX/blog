@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Automate your life</title>
+    <link>https://develop.farb-foto.de/hugo/posts/</link>
+    <description>Recent content in Posts on Automate your life</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>&amp;copy; 2017 | Follow on &lt;a href=&#34;https://twitter.com/sbleidner&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; | &lt;a href=&#34;https://github.com/mgjohansen/hucore.git&#34; target=&#34;_blank&#34;&gt;Hucore theme&lt;/a&gt; &amp; &lt;a href=&#34;http://gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt; ♥</copyright>
+    <lastBuildDate>Fri, 29 Dec 2017 10:20:06 +0100</lastBuildDate>
+    
+	<atom:link href="https://develop.farb-foto.de/hugo/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Travis build test</title>
+      <link>https://develop.farb-foto.de/hugo/posts/my-first-post/</link>
+      <pubDate>Fri, 29 Dec 2017 10:20:06 +0100</pubDate>
+      
+      <guid>https://develop.farb-foto.de/hugo/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
