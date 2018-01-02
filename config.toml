@@ -1,4 +1,4 @@
-baseurl             = "https://blog.farb-foto.de/"
+baseurl             = "https://sascha-bleidner.de/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
