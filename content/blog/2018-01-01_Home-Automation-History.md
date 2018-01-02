@@ -49,4 +49,4 @@ Date:   Sat Apr 8 22:30:34 2017 +0200
 Mein erster Commit war Anfang 2017. Seitdem ist meine Config auf [GitHub](https://github.com/TribuneX/home_assistant) verfügbar. Viele Home Assistant Nutzer teilen ihre Config auf GitHub, sodass man auch viel von anderen Configs lernen kann. Bei mittlerweile über 800 Commits kann man erahnen, dass schon einige Stunden in das konfigurieren und erweitern meines Setups geflossen sind. 
 
 ## Summary
-Ich verbringe zwar wohl mehr Zeit mit dem konfigurieren, als ich am Ende durch die Automatisierung Zeit spare, dafür macht es aber eine Menge Spaß! Mit Home Assistant gibt es so gut wie keine Grenzen, die sich nicht mit ein bisschen Config Scrippting überwinden lassen. 
+Ich verbringe zwar wohl mehr Zeit mit konfigurieren, als ich am Ende durch die Automatisierung Zeit spare, dafür macht es aber eine Menge Spaß! Mit Home Assistant gibt es so gut wie keine Grenzen, die sich nicht mit ein bisschen Config Scrippting überwinden lassen. 
