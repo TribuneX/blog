@@ -2,6 +2,7 @@
 title = "Impressum"
 heading = "Impressum"
 menu = "main"
+weight = 0
 +++
  
 ### Verantwortlich 
