@@ -44,7 +44,7 @@ commit 5a76e05145ed1893f51d9083bd6d2aaedbf74773
 Author: Sascha <sascha@cbs-service.net>
 Date:   Sat Apr 8 22:30:34 2017 +0200
     first commit
-``
+```
 
 Mein erster Commit war Anfang 2017. Seitdem ist meine Config auf [GitHub](https://github.com/TribuneX/home_assistant) verfügbar. Viele Home Assistant Nutzer teilen ihre Config auf GitHub, sodass man auch viel von anderen Configs lernen kann. Bei mittlerweile über 800 Commits kann man erahnen, dass schon einige Stunden in das konfigurieren und erweitern meines Setups geflossen sind. 
 
