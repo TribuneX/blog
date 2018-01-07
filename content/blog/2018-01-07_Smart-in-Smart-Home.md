@@ -1,7 +1,7 @@
 ---
 title: "Wofür steht 'Smart' in Smart-Home?"
 date: 2018-01-07T21:41:53+01:00
-draft: true
+draft: false
 ---
 
 Diese Frage stellte ich mir nach einigen Monaten basteln und experimentieren mit WIFI Steckdosen, Temperatur Sensoren oder [Staubsauger Roboter](http://www.mi.com/roomrobot/). Die Grundregel lautet: Alles was eine IP-Adresse hat kann auch in Home Assistant eingebunden werden. Meine [TRÅDFRI](http://www.ikea.com/de/de/catalog/categories/departments/lighting/smart_lighting/) Lampen werden statt mit dem Lichtschalter an der Wand nun mit dem iPhone gesteuert. Der Fernseher wird nicht mehr per Fernbedienung eingeschaltet, sondern ebenfalls über das iPhone. Doch ist das nun 'smarter' als früher?
