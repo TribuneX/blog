@@ -8,6 +8,8 @@ Mein [Home Assistant](https://home-assistant.io) Setup lief bis vor wenigen Tage
 
 ## Auf das richtige Image kommt es an
 
+![Docker Logo](/img/docker.png)
+
 Docker Images sind plattformspezifisch. D.h. auf dem Pi laufen nur arm spezifische Images. Die Suche nach einem passenden arm32v7 [[^1]] gestaltet sich dabei häufig schwierig, da das offizielle [Docker Repository](https://hub.docker.com) nicht nach Plattformen filtern kann. 
 
 Glücklicherweise gibt es ein [offizielles Docker Image](https://hub.docker.com/r/homeassistant/raspberrypi3-homeassistant/) von den Machern von Home Assistant, das speziell für den Pi3 ausgelegt ist. 
