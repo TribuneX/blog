@@ -36,9 +36,15 @@ services:
       - /opt/ssl/:/ssl
 ```
 
-Damit wird Home Assistant als Docker Container unter dem Namen `homeassistant` gestartet. `network_mode: "host"` führt dazu, dass der Container das Netzwerk des Hosts mitnutzt und damit per IP mit anderen Geräten im Heimnetz kommunizieren kann. Ansonsten wäre der Container abgeschottet, bzw. könnte er lediglich auf andere Container im selben virtuellen Docker Netzwerk zugreifen. 
+`container_name: "homeassistant"`: Der Container wird mit dem Namen "homeassistant" gestartet.
+ 
+`network_mode: "host"`: Dieser Modus lässt den Container das Netzwerk des Hosts mitnutzten. Somit kann er per IP direkt mit anderen Geräten im Heimnetz kommunizieren. Ansonsten wäre der Container abgeschottet, bzw. könnte er lediglich auf andere Container im selben virtuellen Docker Netzwerk zugreifen. 
 
-Die Home Assistant UI ist über den gewohnten Port 8123 über SSL verfügbar. Hierzu wird das benötigte Zertifikat unter dem Pfad `/ssl`bereitgestellt. Die Home Assistant Konfiguration wird ebenfalls von einem externen Ordner in den Container gemountet und ist unter `/config` verfügbar. Damit lässt sich Home Assistant bequem aus dem Verzeichnis, in dem die `docker-compose.yml` Datei gespeichert ist. Hierzu genügt einfaches `docker-compose up -d`. Gestoppt werden kann der Container jederzeit über `docker-compose down`. 
+`- "8123:8123/tcp"`: Die Home Assistant UI ist über den gewohnten Port 8123 per HTTPS verfügbar. Das hierzu benötigte Zertifikat wird per Volume eingebunden und unter dem Pfad `/ssl` bereitgestellt. 
+
+`- /opt/home_assistant/:/config`: Die Home Assistant Konfiguration verwalte ich außerhalb des Containers in einem eigenen Repository. Diese Repository wird ebenfalls über ein Volume eingebunden und ist im Container damit unter dem Pfad `/config` verfügbar.
+
+Damit lässt sich Home Assistant bequem aus dem Verzeichnis, in dem die `docker-compose.yml` Datei gespeichert ist starten. Hierzu genügt ein einfaches `docker-compose up -d`. Gestoppt werden kann der Container jederzeit über `docker-compose down`. 
 
 Der größte Vorteil an Docker Compose liegt darin, dass mit nur einem Befehl weitere Container gestartet werden können. Neben dem Home Assistant Container werden noch ein Container für [Homebridge](https://github.com/nfarina/homebridge) und [InfluxDB](https://www.influxdata.com) gestartet.
 
@@ -47,7 +53,7 @@ Der größte Vorteil an Docker Compose liegt darin, dass mit nur einem Befehl we
 Die Migration meiner bisherigen Installation hin zu einem Docker Container verlief verhältnismäßig reibungslos. Dennoch gibt es noch folgende offene Baustellen, die im neuen Setup noch behoben werden müssen:
 
 1. Reload der Konfiguration nach erfolgreichem Travis CI Build
-2. Wake-on-LAN und Shutdown meines HP Microservers
+2. Wake-on-LAN und Showdown meines HP Microservers
 
 Bisher hatte ich eine Art [Continuous Integration](https://community.home-assistant.io/t/update-config-automatically-if-travis-ci-build-succeeds/19966) für mein Home Assistant Setup umgesetzt. D.h. Home Assistant hat über einen Sensor den Travis CI Build überwacht und falls dieser erfolgreich war, automatisiert die Konfiguration per `git pull` aktualisiert und anschließend einen Neustart durchgeführt. Da die Konfiguration außerhalb des Containers gespeichert ist, kann Home Assistant sie nicht mehr direkt per `git pull` aktualisieren. Des weiteren sollte statt einem Neustart von Home Assistant besser gleich der ganze Container neu gestartet werden, da aktuell auch der Homebridge Container immer mit neu gestartet werden sollte [[^2]]. 
 
