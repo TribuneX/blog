@@ -18,7 +18,7 @@ Glücklicherweise gibt es ein [offizielles Docker Image](https://hub.docker.com/
 
 Docker Container lassen sich zwar bereits mit einem einfachen `docker container run` ausführen, insbesondere wenn mehrere Container parallel gestartet werden sollen, vereinfacht [Docker Compose](https://docs.docker.com/compose/overview/) das Container Handling ungemein. 
 
-Hier ein Auszug aus meiner `docker-compose.yml:
+Hier ein Auszug aus meiner `docker-compose.yml:`
 
 ```
 version: '3'
