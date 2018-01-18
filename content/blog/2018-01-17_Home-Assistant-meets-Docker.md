@@ -27,7 +27,8 @@ services:
     image: homeassistant/raspberrypi3-homeassistant:latest
     container_name: "homeassistant"
     restart: always
-    network_mode: "host"
+    dns:
+      - 192.168.178.5
     ports:
       - "8123:8123/tcp"
     volumes:
@@ -38,7 +39,7 @@ services:
 
 `container_name: "homeassistant"`: Der Container wird mit dem Namen "homeassistant" gestartet.
  
-`network_mode: "host"`: Dieser Modus lässt den Container das Netzwerk des Hosts mitnutzten. Somit kann er per IP direkt mit anderen Geräten im Heimnetz kommunizieren. Ansonsten wäre der Container abgeschottet, bzw. könnte er lediglich auf andere Container im selben virtuellen Docker Netzwerk zugreifen. 
+`192.168.178.5`: Zur Auflösung von internen Hostnamen verwende ich dnsmasq. Dieser DNS-Server kann über die Konfiguration `dns:` für den Docker Container festgelegt werden.
 
 `"8123:8123/tcp"`: Die Home Assistant UI ist über den gewohnten Port 8123 per HTTPS verfügbar. Das hierzu benötigte Zertifikat wird per Volume eingebunden und unter dem Pfad `/ssl` bereitgestellt. 
 
