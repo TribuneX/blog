@@ -40,9 +40,9 @@ services:
  
 `network_mode: "host"`: Dieser Modus lässt den Container das Netzwerk des Hosts mitnutzten. Somit kann er per IP direkt mit anderen Geräten im Heimnetz kommunizieren. Ansonsten wäre der Container abgeschottet, bzw. könnte er lediglich auf andere Container im selben virtuellen Docker Netzwerk zugreifen. 
 
-`- "8123:8123/tcp"`: Die Home Assistant UI ist über den gewohnten Port 8123 per HTTPS verfügbar. Das hierzu benötigte Zertifikat wird per Volume eingebunden und unter dem Pfad `/ssl` bereitgestellt. 
+`"8123:8123/tcp"`: Die Home Assistant UI ist über den gewohnten Port 8123 per HTTPS verfügbar. Das hierzu benötigte Zertifikat wird per Volume eingebunden und unter dem Pfad `/ssl` bereitgestellt. 
 
-`- /opt/home_assistant/:/config`: Die Home Assistant Konfiguration verwalte ich außerhalb des Containers in einem eigenen Repository. Diese Repository wird ebenfalls über ein Volume eingebunden und ist im Container damit unter dem Pfad `/config` verfügbar.
+`/opt/home_assistant/:/config`: Die Home Assistant Konfiguration verwalte ich außerhalb des Containers in einem eigenen Repository. Diese Repository wird ebenfalls über ein Volume eingebunden und ist im Container unter dem Pfad `/config` verfügbar.
 
 Damit lässt sich Home Assistant bequem aus dem Verzeichnis, in dem die `docker-compose.yml` Datei gespeichert ist starten. Hierzu genügt ein einfaches `docker-compose up -d`. Gestoppt werden kann der Container jederzeit über `docker-compose down`. 
 
