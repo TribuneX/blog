@@ -17,7 +17,7 @@ Zurück zum Begriff 'smart' oder auch clever. Könnten wir nicht eher von einem 
 
 Mit steigender Anzahl Komponenten in meinem Smart-Home, zeigte sich mehr und mehr, dass ich statt iPhone Steuerung lieber gar keine Steuerung bevorzugen würde. Die Geräte sollen sich idealerweise selbst regulieren. Seitdem entwickle ich die [Automationen](https://home-assistant.io/components/automation/) in Home Assistant genau nach diesem Grundsatz: Keine Buttons! Geräte sollen anhand von beliebigen Sensordaten ihren Schaltzustand ableiten, ohne dass ich erst den korrekten Button drücken muss. 
 
-![Home Assisant GUI](/img/home_assistant_automations.png)
+![Home Assistant GUI](/img/home_assistant_automations.png)
 
 Ein vernetztes Zuhause ist für mich erst dann 'smart', wenn es den Großteil der Aktionen automatisiert auslöst. Der Bewohner sollte nicht aktiv in die Steuerung der Geräte eingreifen müssen. Denn wer erst einen Button drücken muss, der muss auch erst einmal darüber nachdenken, was er gerade einschalten, auslösen oder ausschalten möchte. Diese Denkaufgabe sollte einem das Smart-Home schon abnehmen können, sonst hat es meiner Meinung nach den Zusatz 'smart' nicht verdient. Jedes Smart-Home ist damit gleichzeitig auch ein vernetztes Zuhause, umgekehrt gilt dies aber nicht automatisch.
 
