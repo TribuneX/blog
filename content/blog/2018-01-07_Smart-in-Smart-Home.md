@@ -15,7 +15,7 @@ Zurück zum Begriff 'smart' oder auch clever. Könnten wir nicht eher von einem 
 
 ## No-Button-Paradigma
 
-Mit steigender Anzahl Komponenten in meinem Smart-Home, zeigte sich mehr und mehr, dass ich statt iPhone Steuerung lieber gar keine Steuerung bevorzugen würde. Die Geräte sollen sich idealerweise selbst regulieren. Seitdem entwickle ich die [Automationen](https://home-assistant.io/components/automation/) in Home Assistant genau nach diesem Grundsatz: Keine Buttons! Geräte sollen anhand von beliegen Sensordaten ihren Schaltzustand ableiten, ohne dass ich erst den korrekten Button drücken muss. 
+Mit steigender Anzahl Komponenten in meinem Smart-Home, zeigte sich mehr und mehr, dass ich statt iPhone Steuerung lieber gar keine Steuerung bevorzugen würde. Die Geräte sollen sich idealerweise selbst regulieren. Seitdem entwickle ich die [Automationen](https://home-assistant.io/components/automation/) in Home Assistant genau nach diesem Grundsatz: Keine Buttons! Geräte sollen anhand von beliebigen Sensordaten ihren Schaltzustand ableiten, ohne dass ich erst den korrekten Button drücken muss. 
 
 ![Home Assisant GUI](/img/home_assistant_automations.png)
 
