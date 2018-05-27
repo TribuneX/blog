@@ -16,4 +16,5 @@ blog (at) sascha-bleidner.de
 
 ### Datenschutzerklärung
 
-Zugriffe auf diese Webseite werden in einer private Piwik Installation gespeichert. Diese Daten verwende ich lediglich zu eigenen Zwecken. Sie werden nicht weitergegeben. Des weiteren werden Zugriffe in den Logs des Webservers gespeichert. Darüber hinaus werden keine weiteren Daten erhoben. 
+Eine Erhebung von personenbezogenen Daten der Nutzer dieser Website findet nicht statt.
+Auch der Webserver speichert keine IP-Adressen der Nutzer.
