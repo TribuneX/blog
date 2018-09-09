@@ -5,7 +5,7 @@ contentdir          = "content"
 languageCode        = "de-DE"
 layoutdir           = "layouts"
 publishdir          = "public"
-theme               = "cocoa"
+theme               = "cocoa_mod"
 author              = "Sascha Bleidner"
 title               = "Sascha Bleidner"
 pygmentsuseclasses  = true
@@ -47,3 +47,19 @@ piwik_url            = "//piwik.cbs-service.net/"    # URL to your Piwik install
 piwik_id             = 24                             # Id of your site in Piwik
 
 avatar                 = "img/avatar.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.speakerDeck]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true

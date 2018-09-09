@@ -1,0 +1,3 @@
+[submodule "themes/cocoa_mod"]
+	path = themes/cocoa_mod
+	url = https://github.com/TribuneX/cocoa-hugo-theme
