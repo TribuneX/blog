@@ -16,5 +16,10 @@ blog (at) sascha-bleidner.de
 
 ### Datenschutzerklärung
 
-Eine Erhebung von personenbezogenen Daten der Nutzer dieser Website findet nicht statt.
-Auch der Webserver speichert keine IP-Adressen der Nutzer.
+Ich lege großen Wert auf Datenschutz, daher nutzt diese Seite:
+
+* keine Cookies
+* keine Tracking-Tools
+* keine externen Resourcen (z.B. Google Fonts)
+
+Auch der Webserver speichert deine IP-Adresse in keinen Log-Dateien.
