@@ -4,7 +4,7 @@ date: 2018-01-17T21:29:00+01:00
 draft: false
 ---
 
-Mein [Home Assistant](https://home-assistant.io) Setup lief bis vor wenigen Tagen auf einem Raspberry Pi2. Alle anderen Apps (dnsmasq, resilio, nginx, etc.) hatte ich bereits auf einen Raspberry Pi3 verlagert. Auf dem Pi3 laufen lediglich Docker Container, d.h. jede App läuft in ihrem eigenen Docker Container. Der Umzug von Home Assistant war zwar bereits geplant, ich scheute aber noch die notwendigen Anpassungen an der Konfiguration. Den Ausschlag für die kurzfristige Migration gab jedoch der Pi2 selbst: Das Filesystem war plötzlich nur noch read-only. Die MicroSD-Karte schien schien nach 3 Jahren Betrieb nun langsam ihren Geist aufzugeben. Also hieß es handeln. 
+Mein [Home Assistant](https://home-assistant.io) Setup lief bis vor wenigen Tagen auf einem Raspberry Pi2. Alle anderen Apps (dnsmasq, resilio, nginx, etc.) hatte ich bereits auf einen Raspberry Pi3 verlagert. Auf dem Pi3 laufen lediglich Docker Container, d.h. jede App läuft in ihrem eigenen Docker Container. Der Umzug von Home Assistant war zwar bereits geplant, ich scheute aber noch die notwendigen Anpassungen an der Konfiguration. Den Ausschlag für die kurzfristige Migration gab jedoch der Pi2 selbst: Das Filesystem war plötzlich nur noch read-only. Die MicroSD-Karte schien nach 3 Jahren Betrieb nun langsam ihren Geist aufzugeben. Also hieß es handeln. 
 
 ## Auf das richtige Image kommt es an
 
