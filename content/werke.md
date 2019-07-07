@@ -13,8 +13,8 @@ Hier sammle ich alles mögliche, was ich hier und da erstellt, programmiert oder
 * [YIN-YANG ninjaX tracerouting](https://github.com/bigzaqui/yinyang) / 2015
 
 ### Talks
-
-* [Automatisierte Tests - Tipps zum effizienten Scheiter](https://about.cbs-service.net/files/tipps_scheitern.pdf) / [Entwicklertag](https://entwicklertag.de/karlsruhe/2018/automatisierte-tests) / 2018
+* [Das kleine 1x2 von wirksamen Code Reviews](https://about.cbs-service.net/files/code_review_1x2.pdf) / 2019
+* [Automatisierte Tests - Tipps zum effizienten Scheiter](https://about.cbs-service.net/files/tipps_scheitern.pdf) / [Entwicklertag](http://entwicklertag.de/karlsruhe/2018/automatisierte-tests) / 2018
 * [IXP Peering Services: A Commodity?](https://about.cbs-service.net/files/commodity.pdf) / [European Peering Forum](https://www.peering-forum.eu/agenda?year=2016) / 2016
 * [Connecting to The Core of The Internet](https://www.youtube.com/watch?v=n6ipe0Lj8o4) / [Big-Techday 9](https://www.tngtech.com/en/tng-about-us/bigtechday/big-techday/big-techdayabstracts.html#c13764) / 2016
 * [jAtlasX - Access RIPE Atlas Through Java](https://about.cbs-service.net/files/jatlasx.pdf) / [RIPE 71](http://ripe71.ripe.net/programme/meeting-plan/os-wg/) / 2015
