@@ -18,3 +18,7 @@ Hier sammle ich alles mögliche, was ich hier und da erstellt, programmiert oder
 * [IXP Peering Services: A Commodity?](https://about.cbs-service.net/files/commodity.pdf) / [European Peering Forum](https://www.peering-forum.eu/agenda?year=2016) / 2016
 * [Connecting to The Core of The Internet](https://www.youtube.com/watch?v=n6ipe0Lj8o4) / [Big-Techday 9](https://www.tngtech.com/en/tng-about-us/bigtechday/big-techday/big-techdayabstracts.html#c13764) / 2016
 * [jAtlasX - Access RIPE Atlas Through Java](https://about.cbs-service.net/files/jatlasx.pdf) / [RIPE 71](http://ripe71.ripe.net/programme/meeting-plan/os-wg/) / 2015
+
+### Podcast
+* [Agile Dojo Talks #2: TDD Einführung im Team](https://www.youtube.com/watch?v=MTfBTYICf3g) / 2019
+* [Agile Dojo Talks #1: Was bringt einen dazu, TDD zu praktizieren?](https://www.youtube.com/watch?v=-1Uwn6BNYmw) / 2019
