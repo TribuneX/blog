@@ -1,7 +1,7 @@
 +++
 title = "Impressum"
 heading = "Impressum"
-menu = "main"
+#menu = "main"
 weight = 0
 +++
  
