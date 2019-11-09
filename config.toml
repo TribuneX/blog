@@ -1,4 +1,4 @@
-baseurl             = "https://sascha-bleidner.de/"
+baseurl             = "https://bleidner.me/"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
