@@ -11,7 +11,7 @@ Walldorfer Str. 4
 60598 Frankfurt am Main  
 
 ### Kontakt
-blog (at) sascha-bleidner.de
+hello (at) bleidner.me
 
 
 ### Datenschutzerklärung
