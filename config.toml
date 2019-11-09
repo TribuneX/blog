@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://sascha-bleidner.de"
+baseurl = "https://bleidner.me"
 builddrafts = false
 canonifyurls = false
 languageCode = "de-DE"
@@ -22,15 +22,15 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Sascha Bleidner"
-intro = "Freelancer"
+intro = "[@itemis](https://www.itemis.com/de/)"
 description = "Software Craftsman | TDD Purist | DevOps Engineer"
 authorimage = "avatar.png"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
-description = "Simple minimalist theme"
-keywords = "minimalist,blog,goa,hugo,developer"
+description = "Sascha Bleidner"
+keywords = "tdd purist, software craftsmen, developer, devops engineer"
 
 ## Social Accounts
 [params.social]
