@@ -23,3 +23,7 @@ Hier sammle ich alles mögliche, was ich hier und da erstellt, programmiert oder
 ### Podcast
 * [Agile Dojo Talks #2: TDD Einführung im Team](https://www.youtube.com/watch?v=MTfBTYICf3g) / 2019
 * [Agile Dojo Talks #1: Was bringt einen dazu, TDD zu praktizieren?](https://www.youtube.com/watch?v=-1Uwn6BNYmw) / 2019
+
+## Texte
+* [10 Best Practices für Code Reviews die Spass machen](https://blogs.itemis.com/de/10-best-practices-fuer-code-reviews-die-spass-machen) / 2019
+* [Going fast is making things worse](https://blogs.itemis.com/en/going-fast-is-making-things-worse-interview-with-michael-feathers) / 2019
