@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://bleidner.me"
+baseurl = "https://beta.bleidner.me"
 builddrafts = false
 canonifyurls = false
 languageCode = "de-DE"
