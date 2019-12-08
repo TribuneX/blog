@@ -6,7 +6,6 @@ install:
 
 script:
   - if [ "$TRAVIS_BRANCH" = "master" ]; then URL="bleidner.me"; else URL="beta.bleidner.me"; fi
-  - echo $URL
   - hugo --baseURL="https://$URL"
 
 addons:
