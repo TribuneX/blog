@@ -5,7 +5,9 @@ install:
   - sudo dpkg -i hugo*.deb
 
 script:
-  - hugo
+  - if [ "$TRAVIS_BRANCH" = "master" ]; then URL="bleidner.me"; else URL="beta.bleidner.me"; fi
+  - echo $URL
+  - hugo --baseURL="https://$URL"
 
 addons:
   ssh_known_hosts: w00b42f4.kasserver.com
