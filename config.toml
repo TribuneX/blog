@@ -22,7 +22,7 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Sascha Bleidner"
-intro = "[@itemis](https://www.itemis.com/de/)"
+intro = "[IT Freelancer]"
 description = "Software Craftsman | TDD Purist | DevOps Engineer"
 authorimage = "avatar.png"
 dateformat = "Jan 2, 2006"
@@ -81,11 +81,6 @@ rss = true
 
 
 ## Main Menu
-[[menu.main]]
-    name = "About"
-    identifier = "about"
-    weight = -30
-    url = "/about/"
 [[menu.main]]
     name = "Blog"
     weight = -20
