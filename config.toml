@@ -1,67 +1,93 @@
-baseurl             = "https://bleidner.me/"
-builddrafts         = false
-canonifyurls        = true
-contentdir          = "content"
-languageCode        = "de-DE"
-layoutdir           = "layouts"
-publishdir          = "public"
-theme               = "cocoa"
-author              = "Sascha Bleidner"
-title               = "Sascha Bleidner"
-pygmentsuseclasses  = true
-pluralizelisttitles = false
+## Basic Configuration
 
-[permalinks]
-blog  = "blog/:slug/"
+baseurl = "https://bleidner.me"
+builddrafts = false
+canonifyurls = false
+languageCode = "de-DE"
 
-[[menu.main]]
-name                   = "Home"
-weight                 = -120
-identifier             = "home"
-url                    = "/"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
 
+author = "Sascha Bleidner"
+title = "Sascha Bleidner"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+#googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
 [params]
-include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
-latestpostscount       = 0                             # how many posts to display on the home page
-i18n_flags             = false                         # whether to display small country flags for available translations
-author                 = "Sascha Bleidner"
-cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
-dateform               = "Jan 2, 2006"
-dateformfull           = "Mon Jan 2 2006 15:04:05 MST"
-description            = "Home Automation, Programming & Tech"
-email                  = "hello@bleidner.me"
-extracssfiles          = [ "/css/override.css" ]       # In your `static` directory, add/remove files as necessary.
-faviconfile            = "img/leaf.ico"
-github                 = "//github.com/tribuneX"
-lang                   = "de"
-noshowreadtime         = true                         # if true, don't show "<x> minutes read" in posts
-selfintro              = ""                            # appears in the site header when set to a non-empty string
-twitter                = "//twitter.com/sbleidner"
+author = "Sascha Bleidner"
+intro = "[IT Freelancer]"
+description = "Software Craftsman | TDD Purist | Coach | Speaker"
+authorimage = "avatar.png"
+dateformat = "Jan 2, 2006"
 
-highlightjs            = true
-# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
-# highlightjsStyle     = "darcula"
-highlightjs_url        = "/js/highlight.min.js"        # relative path to your self hosted highlight.js file 
-highlightjs_css_url    = "css/default.min.css"         # relative path to your self hosted css config for highlight.js
+## Site Meta Settings
+[params.meta]
+description = "Sascha Bleidner"
+keywords = "tdd purist, software craftsmen, developer, coach, speaker"
 
-piwik                  = false                         # If true, Piwik integration is enabled
-piwik_url            = "//piwik.cbs-service.net/"    # URL to your Piwik installation. Must End with a slash
-piwik_id             = 24                             # Id of your site in Piwik
+## Social Accounts
+[params.social]
+github = "tribunex"
+#instagram = "<username>"
+xing = "Sascha_Bleidner"
+#linkedin = "<username>"
+twitter = "sbleidner"
+#facebook = "<username>"
+#google = "<username>"
+#googlescholar = "<account_id>"
+#stackoverflow = "<username>"
+#lastfm = "<username>"
+#goodreads = "<username>"
+#gitlab = "<username>"
+#bitbucket = "<username>"
+#fivehundredpx = "<username>"
+#flickr = "<username>"
+#foursquare = "<username>"
+#hackernews = "<username>"
+#kickstarter = "<username>"
+#patreon = "<username>"
+#pintrest = "<username>"
+#steam = "<username>"
+#reddit = "<username>"
+#snapchat = "<username>"
+#youtube = "<channelid>"
+#keybase = "<username>"
+#twitch = "<username>"
+#soundcloud = "<username>"
+#tumblr = "<username>"
+#strava = "<username>"
+#skype = "<username>"
+#telegram = "<username>"
+#whatsapp = "<username>"
+email = "hello@bleidner.me"
 
-avatar                 = "img/avatar.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
 
-[privacy]
-  [privacy.disqus]
-    disable = true
-  [privacy.googleAnalytics]
-    disable = true
-  [privacy.instagram]
-    disable = true
-  [privacy.speakerDeck]
-    disable = true
-  [privacy.twitter]
-    disable = true
-  [privacy.vimeo]
-    disable = true
-  [privacy.youtube]
-    disable = true
+## Extras
+[params.extra]
+copyright = "[Impressum](/impressum)."
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = false
+displayrssicon = false
+rss = true
+
+
+## Main Menu
+[[menu.main]]
+    name = "Blog"
+    weight = -20
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "Werke"
+    identifier = "werke"
+    weight = -10
+    url = "/werke/"
