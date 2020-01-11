@@ -23,14 +23,14 @@ enableRobotsTXT = true
 [params]
 author = "Sascha Bleidner"
 intro = "[IT Freelancer]"
-description = "Software Craftsman | TDD Purist | DevOps Engineer"
+description = "Software Craftsman | TDD Purist | Coach | Speaker"
 authorimage = "avatar.png"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
 [params.meta]
 description = "Sascha Bleidner"
-keywords = "tdd purist, software craftsmen, developer, devops engineer"
+keywords = "tdd purist, software craftsmen, developer, coach, speaker"
 
 ## Social Accounts
 [params.social]
