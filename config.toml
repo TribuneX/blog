@@ -22,9 +22,9 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Sascha Bleidner"
-intro = "[IT Freelancer]"
-description = "Software Craftsman | TDD Purist | Coach | Speaker"
-authorimage = "avatar.png"
+intro = "{developer}"
+description = "software craftsman | tdd purist | coach | speaker"
+authorimage = "avatar-sascha.png"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
