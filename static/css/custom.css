@@ -8,7 +8,7 @@
     color: #EC722E !important;
 }
 
-a:link {
+a:link, a:visited {
     color: #EC722E;
 }
 
