@@ -6,12 +6,6 @@ weight = -100
 
 Hier sammle ich alles mögliche, was ich hier und da erstellt, programmiert oder gebastelt habe.
 
-### Code
-
-* [Home Assistant Config](https://github.com/TribuneX/home_assistant) / 2017
-* [Dotfiles](https://github.com/TribuneX/dotfiles) / 2017
-* [YIN-YANG ninjaX tracerouting](https://github.com/bigzaqui/yinyang) / 2015
-
 ### Talks
 * [Automatisierte Tests - Tipps zum effizienten Scheitern (Video)](https://www.youtube.com/watch?v=HEOUiKc3e5E) / [JCON](https://jcon.one/de/) / 2019
 * [Das kleine 1x2 von wirksamen Code Reviews](https://about.sascha-bleidner.de/files/code_review_1x2.pdf) / [Clean Code Days](https://www.cleancode-days.de/archiv/downloads/handouts-2019.html) / 2019
@@ -25,6 +19,12 @@ Hier sammle ich alles mögliche, was ich hier und da erstellt, programmiert oder
 * [Reviews: "Ja, aber..." oder "und bitte..."?](https://www.youtube.com/watch?v=CCUrQZTURKU) / 2019
 * [Agile Dojo Talks #2: TDD Einführung im Team](https://www.youtube.com/watch?v=MTfBTYICf3g) / 2019
 * [Agile Dojo Talks #1: Was bringt einen dazu, TDD zu praktizieren?](https://www.youtube.com/watch?v=-1Uwn6BNYmw) / 2019
+
+### Code
+
+* [Home Assistant Config](https://github.com/TribuneX/home_assistant) / 2017
+* [Dotfiles](https://github.com/TribuneX/dotfiles) / 2017
+* [YIN-YANG ninjaX tracerouting](https://github.com/bigzaqui/yinyang) / 2015
 
 ## Texte
 * [10 Best Practices für Code Reviews die Spass machen](https://blogs.itemis.com/de/10-best-practices-fuer-code-reviews-die-spass-machen) / 2019
