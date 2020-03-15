@@ -20,7 +20,7 @@ Hier sammle ich alles mögliche, was ich hier und da erstellt, programmiert oder
 * [Connecting to the core of the Internet (Video)](https://www.youtube.com/watch?v=n6ipe0Lj8o4) / [Big-Techday 9](https://www.tngtech.com/en/tng-about-us/bigtechday/big-techday/big-techdayabstracts.html#c13764) / 2016
 * [jAtlasX - Access RIPE Atlas Through Java](https://about.cbs-service.net/files/jatlasx.pdf) / [RIPE 71](http://ripe71.ripe.net/programme/meeting-plan/os-wg/) / 2015
 
-### Intervies
+### Interviews
 * [Nachhaltige Softwareentwicklung](https://www.youtube.com/watch?v=jtPBGNnzxFU) / 2020
 * [Reviews: "Ja, aber..." oder "und bitte..."?](https://www.youtube.com/watch?v=CCUrQZTURKU) / 2019
 * [Agile Dojo Talks #2: TDD Einführung im Team](https://www.youtube.com/watch?v=MTfBTYICf3g) / 2019
