@@ -6,9 +6,9 @@ weight = 0
 +++
  
 ### Verantwortlich 
-Sascha Bleidner    
-Walldorfer Str. 4  
-60598 Frankfurt am Main  
+Sascha Bleidner   
+Schulstr. 36  
+63128 Dietzenbach
 
 ### Kontakt
 hello (at) bleidner.me
